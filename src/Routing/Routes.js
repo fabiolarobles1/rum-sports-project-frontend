@@ -4,6 +4,7 @@ import history from './history';
 import Home from '../components/Home/Home';
 import About from '../components/About/About';
 import NavBar from '../components/Navbar/Navbar';
+import Sports from '../components/Sports/Sports';
 
 
 class Routes extends Component {
@@ -12,8 +13,9 @@ class Routes extends Component {
       <Router history={history}>
         <NavBar/>
         <Switch>
-         <Route path='/' exact component={Home}></Route>
-         <Route path='/about' exact component={About}></Route>
+         <Route path='/' exact component={Home}/>
+         <Route path='/about' exact component={About}/>
+         <Route path='/sports' exact component={Sports}/>
           {/* add all components here */}
         </Switch>
         {/* <Footer /> */}

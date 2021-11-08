@@ -1,0 +1,26 @@
+
+.event-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 5vh;
+}
+
+.date{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.picture{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4; 
+    margin: auto;
+    height: 10vh;
+  }
+
+.icon{
+    height: 10vh;  
+}

@@ -1,0 +1,49 @@
+.events{
+    color: #356B36;
+    right: 0;
+    width: 100%;
+    background-color: rgb(248,248,248);
+
+}
+
+.events th{
+    height: 10vh;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vh;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(197, 197, 197, 0.95);
+}
+
+.events td{   
+    border-bottom: 1px solid rgba(197, 197, 197, 0.95);
+}
+
+.title-container{
+   position:absolute;
+   font-family: 'Georgia';
+   font-style: normal;
+   font-weight: bold;
+   font-size: 3vh;
+   text-align: center;
+   width: 80vw;
+   height: 10vh;
+   background-color: #356B36;
+}
+
+.title{
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.events-wrap{
+    overflow-y: scroll;
+    height: 90vh;
+    position: absolute;
+    right: 0;
+    width: 20vw;
+}
+

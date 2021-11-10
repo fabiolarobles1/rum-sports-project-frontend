@@ -1,0 +1,55 @@
+
+.new-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 15vh;
+    color: black;
+    
+  }
+  
+  .title{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-family: 'Georgia';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 5vh;
+      padding-left: 5vw;
+  }
+  
+  
+  .picture-wrap{
+      grid-column-start: 2;
+      grid-row-start: 1;
+      grid-row-end: 4; 
+      display: flex;
+      margin:auto;
+      align-items: center;
+      max-height: 15vh;
+      
+  }
+
+
+  .new-picture{
+      /* height: inherit; */
+      border-radius: 50%;
+      border: 1px solid black;
+  }
+  
+ 
+    .text{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        display: flex;
+        margin:auto;
+        align-items: center;
+        padding-left: 5vw;
+    }
+  

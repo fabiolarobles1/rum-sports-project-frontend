@@ -67,7 +67,7 @@ export default class Home extends Component {
                                 colorBackground={true}/>
                         </td>
                     </tr>
-                    <tr>
+                     <tr>
                         <td><New title='... Just in' imgSrc={rum} text="BLAHDdsjfhduhyfadfdhfjdhf 
                                                                         udffdjfhdjfhdjfhdfhdjfhdjfhjn
                                                                         cdjchdjcjdchdcuehwfeieifdsifdsfkj

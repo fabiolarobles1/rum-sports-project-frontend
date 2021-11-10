@@ -24,8 +24,8 @@ export default class Teampage extends Component {
         return (
                 <>
                 <Sidebar className="sidebar-container" data={Data}/>
-                <div className='title-container'>
-                    <div className='title'>
+                <div className='teampage-title-container'>
+                    <div >
                     {Data.map((val,key)=>{
                              if(val.sport){
                                 return (

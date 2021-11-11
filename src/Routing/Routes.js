@@ -7,6 +7,7 @@ import NavBar from '../components/Navbar/Navbar';
 import Sports from '../components/Sports/Sports';
 import Teampage from '../components/Teampage/Teampage';
 import Login from '../components/Login/Login';
+import SignUp from '../components/SignUp/SignUp';
 
 
 class Routes extends Component {
@@ -20,6 +21,7 @@ class Routes extends Component {
          <Route path='/sports' exact component={Sports}/>
          <Route path='/teampage' exact component={Teampage}/>
          <Route path='/login' exact component={Login}/>
+         <Route path='/signup' exact component={SignUp}/>
           {/* add all components here */}
         </Switch>
         {/* <Footer /> */}

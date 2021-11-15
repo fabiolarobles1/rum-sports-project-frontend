@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-//import "../Login/Login.css";
-//import "../Login/LoginForm.css";
-//import "./SignUpForm.css";
+import "../Login/Login.css";
+import "../Login/LoginForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 

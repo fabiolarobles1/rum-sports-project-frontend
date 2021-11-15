@@ -1,0 +1,41 @@
+html {
+    background-color: rgb(238, 238, 238);
+}
+  
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.Login {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.LoginTitle {
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.loginbutton {
+    background-color: #356B36;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition-duration: 10ms;
+}
+
+.loginbutton:hover {
+    background-color: #508251;
+}
+
+.loginbutton:active {
+    background-color: #225923;
+}

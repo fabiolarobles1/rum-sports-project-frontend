@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import history from "../../Routing/history";
 import "../Home/Home.css";
-//import "../Login/Login.css";
-//import "./SignUp.css";
+import "../Login/Login.css";
 import SignUpForm from "./SignUpForm";
 import Navbar from "../Navbar/Navbar"
 import axios from "axios";
@@ -117,8 +116,8 @@ export class SignUp extends Component {
         const values = {firstName, lastName, email, password, confirmPassword}
 
         return (
-            <div className="SignUp">
-                <p className="title">Sign Up</p>
+            <div className="Login">
+                <p className="LoginTitle">Sign Up</p>
                 <SignUpForm handleChange={this.handleChange} values={values} />
                 <label> {this.state.errorMessage} </label> <br/>
                 <button className="loginbutton" onClick={() => history.push("/")}>

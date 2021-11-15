@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import history from "../../Routing/history";
-//import "./Login.css";
+import "./Login.css";
 import LoginForm from "./LoginForm";
 import Navbar from "../Navbar/Navbar"
 import axios from "axios";
@@ -109,7 +109,7 @@ export class Login extends Component {
 
         return (
             <div className="Login">
-                <p className="title">Login</p>
+                <p className="LoginTitle">Login</p>
                 <LoginForm handleChange={this.handleChange} values={values} />
                 <label> {this.state.errorMessage} </label> <br/>
                 <button className="loginbutton" onClick={() => history.push("/")}>

@@ -13,6 +13,7 @@ function Navbar(){
       <button className='boxes' onClick={() => history.push("/")}>Home</button>
       <button className='boxes' onClick={() => history.push("/about")}>About</button>
       <button className='boxes' onClick={() => history.push("/sports")}>Sports</button>
+      <button className='boxes' onClick={() => history.push("/login")}>Account</button>
     </nav>
   );
 }

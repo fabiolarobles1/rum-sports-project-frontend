@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import history from "../../Routing/history";
 import "../Login/Login.css";
 import "../Login/LoginForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -86,6 +87,11 @@ export class SignUpForm extends Component {
                             )}
                         </span>
                         </span>
+                    </div>
+                    <div className="instructions">
+                        <p>Already have an account?
+                            <a style={{color: '#225923'}} onClick={() => history.push("/login")}> Login here.</a>
+                        </p>
                     </div>
                 </form>
             </div>

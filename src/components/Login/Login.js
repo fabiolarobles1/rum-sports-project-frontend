@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import history from "../../Routing/history";
 import "./Login.css";
 import LoginForm from "./LoginForm";
-import Navbar from "../Navbar/Navbar"
 import axios from "axios";
 import jwt_decode from "jwt-decode";
 

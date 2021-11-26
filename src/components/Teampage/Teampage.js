@@ -9,7 +9,7 @@ const baseballs =< >
                        return (
                            <li key={key} className="stats">
                              < h4>Stats:</h4>  
-                            < div>AVG: {val.avg}</div>
+                            <div>AVG: {val.avg}</div>
                             <div>OBP: {val.obp}</div>
                             <div>HR: {val.hr}</div>
                             <div>RBI: {val.rbi}</div>
@@ -43,7 +43,6 @@ export default class Teampage extends Component {
                                 return (
                                     <li key={key} className="player-container">
                                      <img src={val.link}className="player-photo" />{" "}
-
                                    </li>
                                );
                             }
@@ -53,7 +52,7 @@ export default class Teampage extends Component {
                 </div>
                 <div className='stats-container'>
                         {Data.map((val,key)=>{
-                             if(val.sport){
+                             if(val.sport=="UPRM Baseball Team"){
                                 return (
                                     baseballs
                                );

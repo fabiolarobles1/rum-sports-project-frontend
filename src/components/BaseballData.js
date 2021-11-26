@@ -12,14 +12,14 @@ export const Data =[
     link: Hermes,
     sport: "UPRM Baseball Team"
 },
-    // {name:"Owens",  
-    // lastname:"Samuel",
-    // number:10,
-    // avg:0.300,
-    // obp:0.600,
-    // hr:12,
-    // rbi:22,
-    // link:HermesPhoto
-    // },
+    {name:"Owens",  
+    lastname:"Samuel",
+    number:10,
+    avg:0.300,
+    obp:0.600,
+    hr:12,
+    rbi:22,
+    link:Hermes
+    },
 ];
 

@@ -50,25 +50,22 @@ export default class Home extends Component {
             <div className="news-wrap">
                 <table className="news" cellSpacing='0'>
                     <tr>
-                        <td><New title='... Just in' imgSrc={rum} text="BLAHDdsjfhduhyfadfdhfjdhf 
-                                                                        udffdjfhdjfhdjfhdfhdjfhdjfhjn
-                                                                        cdjchdjcjdchdcuehwfeieifdsifdsfkj
-                                                                        dsfewifruewifudicjdkfjdsfierfuewiru
-                                                                        feifdjfdjfdkjfdif" 
+                        <td><New title='... This week' imgSrc={rum} text="Taekwondo team back to back champions of the LAI. 
+                                                                        The team performance was elite, bringing home 6 medals and an MVP." 
                                 colorBackground={false}/>
                         </td>
                     </tr>
                     <tr>
-                        <td><New title='... Just in' imgSrc={rum} text="BLAHDdsjfhduhyfadfdhfjdhf 
-                                                                        udffdjfhdjfhdjfhdfhdjfhdjfhjn
-                                                                        cdjchdjcjdchdcuehwfeieifdsifdsfkj
-                                                                        dsfewifruewifudicjdkfjdsfierfuewiru
-                                                                        feifdjfdjfdkjfdif" 
+                        <td><New title='... Just in' imgSrc={rum} text="UPRM Baseball Team is getting ready for the 
+                                                                        opening of the new season. 'We are better than ever, 
+                                                                        our heart is on the field every practice. I think we 
+                                                                        have the necessary attributes to win this season.' 
+                                                                        said their new Coach Pérez." 
                                 colorBackground={true}/>
                         </td>
                     </tr>
                      <tr>
-                        <td><New title='... Just in' imgSrc={rum} text="BLAHDdsjfhduhyfadfdhfjdhf 
+                        <td><New title='... This week' imgSrc={rum} text="BLAHDdsjfhduhyfadfdhfjdhf 
                                                                         udffdjfhdjfhdjfhdfhdjfhdjfhjn
                                                                         cdjchdjcjdchdcuehwfeieifdsifdsfkj
                                                                         dsfewifruewifudicjdkfjdsfierfuewiru

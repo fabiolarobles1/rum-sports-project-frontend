@@ -1,5 +1,5 @@
 
-import Hermes from '../assets/Hermes.png';
+import Hermes from '../assets/Pictures/Athletes/Hermes.png';
 export const Data =[
 {
     name:"Hermes",

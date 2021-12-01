@@ -13,7 +13,6 @@
 }
 
 .about-content {
-    display: flex;
     justify-content: left;
     font-size: 2vh;
     font-family: 'Georgia';
@@ -21,4 +20,18 @@
     margin-top: 2%;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+.about-content a{
+    justify-content: left;
+    font-size: 2vh;
+    font-family: 'Georgia';
+    font-style: normal;
+}
+
+.aboutPic{
+display: flex;
+height: 50vh;
+margin:auto;
+margin-top: 10px;
 }

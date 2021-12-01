@@ -14,14 +14,14 @@ class Routes extends Component {
   render() {
     return (
       <Router history={history}>
-        <NavBar/>
+        <NavBar />
         <Switch>
-         <Route path='/' exact component={Home}/>
-         <Route path='/about' exact component={About}/>
-         <Route path='/sports' exact component={Sports}/>
-         <Route path='/teampage' exact component={Teampage}/>
-         <Route path='/login' exact component={Login}/>
-         <Route path='/signup' exact component={SignUp}/>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' exact component={About} />
+          <Route path='/sports' exact component={Sports} />
+          <Route path='/sports/baseball' exact component={Teampage} />
+          <Route path='/login' exact component={Login} />
+          <Route path='/signup' exact component={SignUp} />
           {/* add all components here */}
         </Switch>
         {/* <Footer /> */}

@@ -111,7 +111,7 @@ export class Login extends Component {
                 <p className="LoginTitle">Login</p>
                 <LoginForm handleChange={this.handleChange} values={values} />
                 <label> {this.state.errorMessage} </label> <br/>
-                <button className="loginbutton" onClick={() => history.push("/")}>
+                <button className="loginbutton" onClick={() => history.push("/form/baseball")}>
                     Log in
                 </button>
             </div>

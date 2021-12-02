@@ -8,6 +8,7 @@ import Sports from '../components/Sports/Sports';
 import Teampage from '../components/Teampage/Teampage';
 import Login from '../components/Login/Login';
 import SignUp from '../components/SignUp/SignUp';
+import Form from '../components/Form/Form';
 
 
 class Routes extends Component {
@@ -22,6 +23,7 @@ class Routes extends Component {
           <Route path='/sports/baseball' exact component={Teampage} />
           <Route path='/login' exact component={Login} />
           <Route path='/signup' exact component={SignUp} />
+          <Route path='/form/baseball' exact component={Form} />
           {/* add all components here */}
         </Switch>
         {/* <Footer /> */}

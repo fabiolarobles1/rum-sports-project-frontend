@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .form-container {
+    background: #ffffff;
+    max-width: 500px;
+    margin: 30px auto;
+    min-height: 300px;
+    border: 1px solid #388E8E;
+    padding: 20px 30px;
+    border-radius: 1px;
+  }
+  
+  .btn {
+    display: inline;
+    background: #000;
+    color: #fff;
+    border: none;
+    margin: 10px 10px 10px 285px;
+    padding: 10px 20px;
+    border-radius: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+  }
+  
+  .btn:focus {
+    outline: none;
+    
+  }
+  
+  .btn:hover {
+      background: #388E8E;
+  }
+
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  
+  .statistic{
+    margin: 1px; 
+    padding: 5px 10px;
+  }
+  
+  .statistic label {
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+      /* padding: 0px 10px 10px 15px; */
+    }
+  
+  .statistic input{
+      display: block;
+      width: 410px;
+      border-radius: 1px;
+      justify-content: space-between;
+      
+  }
+  
+  

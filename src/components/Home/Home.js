@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import Event from './Event'
-// import inter from '../../assets/Pictures/Logos/inter.jpg'
-// import iupi from '../../assets/Pictures/Logos/uprrp.png'
-import rum from '../../assets/Pictures/Logos/uprm.png';
-import './Home.css'
 import New from './New'
+import Event from './Event'
 import { HomeEvents } from './HomeData'
 import { HomeNews } from './HomeData';
 
+import './Home.css'
+
 export default class Home extends Component {
     render() {
+        localStorage.setItem("authentication", false)
         return (
             <>
                 <div className='header-container'>

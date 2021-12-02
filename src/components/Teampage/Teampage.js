@@ -10,7 +10,7 @@ export default function Teampage() {
     console.log(currentSelected)
     return (
         <div>
-            <Sidebar className="sidebar-container" data={Data} updateState={setCurrentSelected} />
+            <Sidebar className="sidebar-container" data={Data} updateState={setCurrentSelected} current={currentSelected} />
             <div className='teampage-title-container'>
                 <div>UPRM Baseball Team</div>
             </div>

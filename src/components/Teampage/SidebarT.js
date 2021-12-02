@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import './SidebarT.css';
 
-function SidebarT({ data, updateState }) {
+function SidebarT({ data, updateState, current }) {
     const handleSelected = useCallback(event => {
         updateState(event)
         console.log("clicked")
@@ -14,7 +14,7 @@ function SidebarT({ data, updateState }) {
             <ul className="SidebarTList">
                 {data.map((val, key) => {
                     return (
-                        <li key={key} className="row" onClick={() => handleSelected(key)}>
+                        <li key={key} className={key === current ? "row selected" : "row"} onClick={() => handleSelected(key)}>
                             <div >{"#"}{val.number} {val.name} {val.lastname} </div>
                         </li>
                     );

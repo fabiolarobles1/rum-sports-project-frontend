@@ -17,6 +17,15 @@ import weight from '../../assets/Pictures/Sports/WeightLifting.png'
 import './Sports.css'
 
 export default class Sports extends Component {
+    handleOnClick = () => {
+        if (localStorage.getItem("authentication") === "true") {
+            history.push("/form/baseball");
+            console.log("administrator");
+        }
+        else {
+            history.push("/sports/baseball")
+        }
+    }
     render() {
         return (
             <div>
@@ -26,7 +35,7 @@ export default class Sports extends Component {
                         <img src={atletismo} alt='atletismo' />
                         Atletismo
                     </div>
-                    <div className='grid-item' onClick={() => history.push("/sports/baseball")}>
+                    <div className='grid-item' onClick={() => this.handleOnClick()}>
                         <img src={baseball} alt='baseball' />
                         Baseball
                     </div>
